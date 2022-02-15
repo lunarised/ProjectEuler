@@ -16,7 +16,7 @@
     + 
     0 
     (map 
-      	(lambda (a) (getValue a)) 
+      	getValue 
 	(range MAX)
     )
   )
